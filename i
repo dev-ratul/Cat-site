@@ -1,68 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>catsite</title>
-    <!-- sora-font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-
-    <!-- ADLaM Display-font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
-
-    <!-- tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- script -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                // 1st background
-                bg0: 'rgba(248, 204, 251, 1)',
-                bg1: 'rgba(172, 210, 253, 1)',
-                // 2nd background
-                bg2: 'rgba(255, 249, 244, 1)',
-                bg3: 'rgba(249, 223, 138, 1)',
-                bgf: 'rgba(255, 220, 38, 0.5)',
-                
-                
-              }
-            }
-          }
-        }
-      </script>
-      <!-- font-awsome -->
-      <script src="https://kit.fontawesome.com/2cc668a7a8.js" crossorigin="anonymous"></script>
-
-    <!-- style -->
-     <style>
-        /* sora-font */
-        .sora-font {
-        font-family: "Sora", serif;
-        }
-
-        /* ADLaM-Display-font */
-        .adlam-font {
-            font-family: "ADLaM Display", serif;
-            font-weight: 400;
-            font-style: normal;
-            }
-
-     </style>
-</head>
-<body>
-    <header class="w-[85vw] mx-auto mb-[120px]">
+<body class="w-[85vw] mx-auto">
+    <header class="mb-[120px]">
       <!-- section-1 -->
         <section class="bg-[#FFF9F4] relative -left-[8vw] w-[100vw]  md:py-5 mb-6 md:mb-[70px] ">
             <nav class="sora-font w-[85vw] mx-auto">
@@ -161,7 +98,7 @@
     </header>
 
     <!-- Main -->
-    <main class="w-[85vw] mx-auto">
+    <main>
       <!-- section-1 -->
        <section class="mb-[120px] mx-auto">
         <h1 class="text-[30px] lg:text-4xl adlam-font mb-8 lg:mb-12">Browse By Categories</h1>
@@ -212,14 +149,14 @@
             <div class="flex flex-col gap-6 lg:flex-row ">
               <!-- 1st -->
               <div class="relative w-full lg:w-2/6  bg-[#F9DF8A] pt-14 pl-[32px]  rounded-xl">
-                <div class="2xl:absolute">
+                <div class="lg:absolute">
                   <h1 class="text-[24px] lg:text-[32px] adlam-font">T- Shirt For Dogs</h1>
                   <p class="sora-font opacity-70 py-6">
                     Discover a world of treats, toys, and <br>essentials handpicked for 
                   </p>
                   <button class="btn bg-white sora-font text-[20px] px-7">Shop Now</button>
                   </div>
-                  <img class=" ml-auto h-[200px] xl:h-[250px] 2xl:h-[350px]" src="assets/cute-pet-small.png" alt="">
+                  <img class=" ml-auto h-[200px] lg:h-[350px]" src="assets/cute-pet-small.png" alt="">
               </div>
 
               <!-- 2nd -->
@@ -239,10 +176,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 2st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/fish-cartoon.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -253,10 +190,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 3st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/bird-cartoon.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -267,10 +204,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 4st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/rabbit-cartoon.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -281,10 +218,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 5st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/bird-cartoon.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -295,10 +232,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 6st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/pet-couch.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -309,10 +246,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 7st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/fish-cartoon.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -323,10 +260,10 @@
                     <p>$33.99</p>
                   </div>
                 </div>
-                <!-- 8st -->
+                <!-- 1st -->
                 <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                   <div >
-                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/pet-couch.png" alt="">
+                    <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                   </div>
                   <div>
                     <div class="flex gap-1">
@@ -342,7 +279,7 @@
                 <div class="hidden lg:block">
                   <div class="border-spacing-2 border grid grid-cols-2 justify-center items-center rounded-lg lg:h-[110px] bg-white pl-2 lg:pl-4 lg:pr-[100px]">
                     <div >
-                      <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4 " src="assets/rabbit-cartoon.png" alt="">
+                      <img class="p-[6px] lg:p-[19px] bg-[#FFF9F4] rounded-xl h-[60px] lg:h-full lg:mr-4" src="assets/dog-cartoon.png" alt="">
                     </div>
                     <div>
                       <div class="flex gap-1">
@@ -359,7 +296,7 @@
           </div>
         </section>
         <!-- section-3 -->
-         <section class="mb-[60px] lg:mb-[10px]">
+         <section class="mb-[60px] lg:mb-[140px]">
           <h1 class="text-2xl lg:text-[36px] adlam-font mb-[32px] lg:mb-[47px]">Everyday low Price</h1>
           <div class="flex flex-col lg:flex-row gap-6">
             <div class="lg:flex lg:items-center bg-gradient-to-r from-bg0 to-bg1 rounded-xl pt-9  lg:w-3/5 justify-center">
@@ -386,52 +323,24 @@
           </div>
          </section>
          <!-- section-4 -->
-          <section class="relative -bottom-56 flex flex-col lg:flex-row lg:items-center justify-evenly rounded-xl bg-[#FFF9F4] lg:py-10">
+          <section class="relative -bottom-32 flex flex-col lg:flex-row lg:items-center justify-evenly rounded-xl bg-[#FFF9F4]">
             <div>
-              <img class="h-[250px] lg:h-full  mt-[32px] lg:mt-0" src="assets/cute-pet-mid.png" alt="">
+              <img src="assets/cute-pet-mid.png" alt="">
             </div>
-            <div class="text-center lg:text-start">
-              <h1 class="text-[22px] lg:text-[36px] adlam-font lg:mb-[20px]">Get Pawsome News!</h1>
-              <p class="w-11/12 mx-auto lg:mx-0 lg:text-[20px] sora-font">Exclusive training tips, ticks, product deals and more.</p>
-              <input class=" py-4 pl-4 pr-[100px] lg:pr-[290px] sora-font text-[#C4C4C4] my-[16px] lg:my-[50px] rounded-lg" type="text" placeholder="Enter email...."><br>
-              <button class="sora-font lg:text-[20px] px-7 rounded-md py-2 mb-[32px] lg:mb-0 bg-[#FFDC26] border-[1px]">Subscribe</button>
+            <div>
+              <h1 class="text-[36px] adlam-font lg:mb-[20px]">Get Pawsome News!</h1>
+              <p class="lg:text-[20px] sora-font">Exclusive training tips, ticks, product deals and more.</p>
+              <input class="border py-4 pl-4 pr-[290px] sora-font text-[#C4C4C4] my-[50px]" type="text" placeholder="Enter email...."><br>
+              <button class="sora-font lg:text-[20px] px-7 rounded-md py-2 bg-[#FFDC26] border-[1px]">Subscribe</button>
             </div>
           </section>
     </main>
 
     <!-- footer -->
-    <footer class=" bg-bgf ">
-      <div class="flex flex-col lg:flex-row justify-between pt-[350px] pb-[100px] w-[85vw] mx-auto gap-9 lg:gap-0">
-        <div class="w-full lg:w-1/4">
-          <div class="flex items-center">
-            <img class="inline-block" src="assets/logo-footer.png" alt="">
-            <h2 class="sora-font text-[26px]">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
-          </div>
-          <p class="sora-font text-[20px] text-[#111111] opacity-70 mt-[30px]">
-            Discover a world of treats, toys, and essentials handpicked for your furry friends
-          </p>
-        </div>
+    <footer class="relative -left-[8vw] w-[100vw] h-[650px] bg-[#FFDC26] opacity-50">
+      <div class="w-[85vw] mx-auto">
 
-        <!-- 2nd -->
-        <div>
-          <ul class="grid gap-6">
-            <li><a class="sora-font text-[20px]" href="">Find a pet</a></li>
-            <li><a class="sora-font text-[20px]"href="" >Breeds</a></li>
-            <li><a class="sora-font text-[20px] "href="">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="my-auto">
-          <p class="sora-font mb-2">Follow us</p>
-          <div class="flex gap-5 lg:gap-8">
-            <a href=""><i class="fa-brands fa-facebook text-[20px]"></i></a>
-            <a href=""><i class="fa-brands fa-instagram text-[20px]"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin text-[20px]"></i></a>
-            <a href=""><i class="fa-brands fa-youtube text-[20px]"></i></a>
-          </div>
-        </div>
       </div>
-      
     </footer>
 
 </body>
-</html>
